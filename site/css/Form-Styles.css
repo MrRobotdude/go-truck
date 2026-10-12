@@ -1,0 +1,80 @@
+#content{
+    text-align: center;
+	padding: 30px;
+	background: #cccccc;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+
+#banner{
+    position: static;
+    width: 100%
+}
+
+#formAddress{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+form{
+    text-align: justify;
+    width: 50%;
+    margin: 0 25%;
+}
+
+#username, #email, #password, #phone, #province, #address{
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 1%;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+    margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+}
+
+label{
+    padding-bottom: 2%;
+    font-weight: lighter;
+    padding-right: 10%;
+}
+
+
+#labelError{
+    color: red;
+    text-align: left;
+    font-weight: bold;
+}
+
+#message{
+    resize: none;
+    overflow: hidden;
+}
+
+#submit{
+    -moz-box-shadow: inset 0px 1px 0px 0px #f79522;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #ff9924;
+	box-shadow: inset 0px 1px 0px 0px #f79522;
+	background-color: #f79522;
+	border: 1px solid #f79522;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#submit:hover{
+    background:linear-gradient(to bottom, #ff9924 5%, #ff9924 100%);
+	background-color:#ff9924;
+}
