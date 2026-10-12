@@ -2,3 +2,4 @@
 @media(min-width:901px){.navbar>a:not(.icon),.navbar .dropbtn{display:block}.navbar .icon{display:none}.navbar{display:flex;align-items:center}.dropdown{float:none}}
 
 .sliderImg img{margin-top:0;aspect-ratio:2.6;object-fit:cover}.sliderImg{height:auto}.contentPicture{aspect-ratio:1.5;object-fit:cover}#banner{max-height:300px;object-fit:cover;width:100%}
+.dropdown.open .drop-content>a,.dropdown:focus-within .drop-content>a{display:block}
